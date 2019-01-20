@@ -4,4 +4,4 @@ This project is to build an interactive map to visualize  [USGS'](https://earthq
 
 ## Snapshot of the webpage
 <br>
-![4-scatter](Images/webpage.PNG)
+![Alt text](Images/webpage.png?raw=true "Title")
