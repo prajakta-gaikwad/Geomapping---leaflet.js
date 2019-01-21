@@ -16,7 +16,8 @@ function createFeatures(earthquakeData) {
 
     var earthquakes = L.geoJSON(earthquakeData, {
         onEachFeature: function (feature, layer) {
-            layer.bindPopup("<h4" > +feature.properties.place + "<br> Magnitude: " + feature.properties.mag + "</h3>");
+            layer.bindPopup("<h3>" + feature.properties.place + "<br> Magnitude: " + feature.properties.mag +
+      "</h3><hr><p>" + new Date(feature.properties.time) + "</p>");
         },
         // pointToLayer - points are handled differently than polylines & polygons
         pointToLayer: function (feature, latlng) {
