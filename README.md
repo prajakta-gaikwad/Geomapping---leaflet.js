@@ -30,4 +30,4 @@ This project is to build an interactive map to visualize  [USGS'](https://earthq
 ![4-scatter](webpage.png)
 ![4-scatter](webpage2.png)
 ![4-scatter](webpage3.png)
-![4-scatter](popup.PNG)
+![4-scatter](popup.png)
